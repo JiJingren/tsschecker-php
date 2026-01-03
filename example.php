@@ -6,14 +6,14 @@ $checker = new TssChecker();
 /**
  * Device Identity Parameters
  */
-$checker->device = 'iPhone12,1';         // Product Type (e.g., iPhone12,1)
+$checker->device = 'iPhone4,1';         // Product Type (e.g., iPhone4,1)
 $checker->ecid = '0x123456789ABC';       // Device ECID (Supports Hex string or Integer)
 $checker->boardconfig = null;            // Optional: Specific board config (e.g., n104ap)
 
 /**
  * Firmware Versioning (Choose one or both)
  */
-$checker->iosVersion = '17.4';           // Target iOS Version
+$checker->iosVersion = '9.3.6';           // Target iOS Version
 $checker->buildVersion = null;           // Optional: Specific Build ID (e.g., 21E219)
 
 /**
